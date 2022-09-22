@@ -190,7 +190,7 @@ function doSomething() {
             section3move.style.transform=`translateX(1650px)`;
             index=0;
         }
-    },2000)
+    },3000)
     }
     document.addEventListener('scroll', (e) => {
       lastKnownScrollPosition = window.scrollY;
